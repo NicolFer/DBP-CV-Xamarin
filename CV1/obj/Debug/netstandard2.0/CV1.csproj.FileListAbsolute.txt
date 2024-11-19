@@ -1,0 +1,15 @@
+C:\Users\Nicol\source\repos\CV1\CV1\bin\Debug\netstandard2.0\CV1.deps.json
+C:\Users\Nicol\source\repos\CV1\CV1\bin\Debug\netstandard2.0\CV1.dll
+C:\Users\Nicol\source\repos\CV1\CV1\bin\Debug\netstandard2.0\ref\CV1.dll
+C:\Users\Nicol\source\repos\CV1\CV1\bin\Debug\netstandard2.0\CV1.pdb
+C:\Users\Nicol\source\repos\CV1\CV1\obj\Debug\netstandard2.0\CV1.csproj.AssemblyReference.cache
+C:\Users\Nicol\source\repos\CV1\CV1\obj\Debug\netstandard2.0\CV1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nicol\source\repos\CV1\CV1\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Nicol\source\repos\CV1\CV1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Nicol\source\repos\CV1\CV1\obj\Debug\netstandard2.0\CV1.AssemblyInfoInputs.cache
+C:\Users\Nicol\source\repos\CV1\CV1\obj\Debug\netstandard2.0\CV1.AssemblyInfo.cs
+C:\Users\Nicol\source\repos\CV1\CV1\obj\Debug\netstandard2.0\CV1.csproj.CoreCompileInputs.cache
+C:\Users\Nicol\source\repos\CV1\CV1\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Nicol\source\repos\CV1\CV1\obj\Debug\netstandard2.0\CV1.dll
+C:\Users\Nicol\source\repos\CV1\CV1\obj\Debug\netstandard2.0\refint\CV1.dll
+C:\Users\Nicol\source\repos\CV1\CV1\obj\Debug\netstandard2.0\CV1.pdb

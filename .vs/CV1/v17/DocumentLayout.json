@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nicol\\source\\repos\\CV1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E297E561-233C-4A96-854B-2EFB91732AE5}|CV1\\CV1.csproj|c:\\users\\nicol\\source\\repos\\cv1\\cv1\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E297E561-233C-4A96-854B-2EFB91732AE5}|CV1\\CV1.csproj|solutionrelative:cv1\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E297E561-233C-4A96-854B-2EFB91732AE5}|CV1\\CV1.csproj|c:\\users\\nicol\\source\\repos\\cv1\\cv1\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{E297E561-233C-4A96-854B-2EFB91732AE5}|CV1\\CV1.csproj|solutionrelative:cv1\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E297E561-233C-4A96-854B-2EFB91732AE5}|CV1\\CV1.csproj|c:\\users\\nicol\\source\\repos\\cv1\\cv1\\cv1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E297E561-233C-4A96-854B-2EFB91732AE5}|CV1\\CV1.csproj|solutionrelative:cv1\\cv1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF917500-332B-445C-AE67-0494321A1648}|CV1.Android\\CV1.Android.csproj|C:\\Users\\Nicol\\source\\repos\\CV1\\cv1.android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF917500-332B-445C-AE67-0494321A1648}|CV1.Android\\CV1.Android.csproj|solutionrelative:cv1.android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF917500-332B-445C-AE67-0494321A1648}|CV1.Android\\CV1.Android.csproj|C:\\Users\\Nicol\\source\\repos\\CV1\\cv1.android\\properties\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}",
+      "RelativeMoniker": "D:0:0:{AF917500-332B-445C-AE67-0494321A1648}|CV1.Android\\CV1.Android.csproj|solutionrelative:cv1.android\\properties\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CV1.csproj",
+              "DocumentMoniker": "C:\\Users\\Nicol\\source\\repos\\CV1\\CV1\\CV1.csproj",
+              "RelativeDocumentMoniker": "CV1\\CV1.csproj",
+              "ToolTip": "C:\\Users\\Nicol\\source\\repos\\CV1\\CV1\\CV1.csproj",
+              "RelativeToolTip": "CV1\\CV1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-17T03:03:47.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Nicol\\source\\repos\\CV1\\CV1\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "CV1\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Nicol\\source\\repos\\CV1\\CV1\\MainPage.xaml.cs",
+              "RelativeToolTip": "CV1\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T02:37:57.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Nicol\\source\\repos\\CV1\\CV1\\MainPage.xaml",
+              "RelativeDocumentMoniker": "CV1\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Nicol\\source\\repos\\CV1\\CV1\\MainPage.xaml",
+              "RelativeToolTip": "CV1\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-17T02:37:32.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "C:\\Users\\Nicol\\source\\repos\\CV1\\CV1.Android\\Properties\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "CV1.Android\\Properties\\AndroidManifest.xml",
+              "ToolTip": "C:\\Users\\Nicol\\source\\repos\\CV1\\CV1.Android\\Properties\\AndroidManifest.xml",
+              "RelativeToolTip": "CV1.Android\\Properties\\AndroidManifest.xml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-11-17T03:06:08.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "C:\\Users\\Nicol\\source\\repos\\CV1\\CV1.Android\\MainActivity.cs",
+              "RelativeDocumentMoniker": "CV1.Android\\MainActivity.cs",
+              "ToolTip": "C:\\Users\\Nicol\\source\\repos\\CV1\\CV1.Android\\MainActivity.cs",
+              "RelativeToolTip": "CV1.Android\\MainActivity.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T03:04:43.885Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
