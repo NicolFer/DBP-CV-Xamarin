@@ -18,7 +18,7 @@ namespace CV1
 
         private async void GenerateStaticPdf()
         {
-            // Crear un documento PDF
+            // Crear PDF
             PdfDocument document = new PdfDocument();
             PdfPage page = document.Pages.Add();
             PdfGraphics graphics = page.Graphics;
@@ -30,22 +30,21 @@ namespace CV1
             PdfFont smallFont = new PdfStandardFont(PdfFontFamily.Helvetica, 10);
             PdfFont jobTitleFont = new PdfStandardFont(PdfFontFamily.Helvetica, 12, PdfFontStyle.Bold);
 
-            // Color lila pálido para los años
+            // Color 
             Syncfusion.Drawing.Color paleLilac = Syncfusion.Drawing.Color.FromArgb(216, 191, 216);
 
-            // Tamaño de la página
+            // Tamaño página
             float pageWidth = page.GetClientSize().Width;
             float pageHeight = page.GetClientSize().Height;
 
-            // Dibuja el fondo del encabezado (lila oscuro)
             Syncfusion.Drawing.Color darkPurple = Syncfusion.Drawing.Color.FromArgb(102, 51, 153); // Lila oscuro
             graphics.DrawRectangle(new PdfSolidBrush(darkPurple), new Syncfusion.Drawing.RectangleF(0, 0, pageWidth, 110));
 
-            // Dibuja el fondo de la columna izquierda (gris lila claro)
+            // Dibuja fondo columna izquierda 
             Syncfusion.Drawing.Color lightLilacGray = Syncfusion.Drawing.Color.FromArgb(220, 200, 230); // Gris lila claro
             graphics.DrawRectangle(new PdfSolidBrush(lightLilacGray), new Syncfusion.Drawing.RectangleF(0, 110, 150, pageHeight - 110));
 
-            // Cargar imagen desde los recursos incrustados
+            // Cargar imagen 
             var assembly = typeof(MainPage).GetTypeInfo().Assembly;
             Stream imageStream = assembly.GetManifestResourceStream("CV1.Resources.Images.mi_imagen.jpg"); // Ajusta la ruta
             PdfImage image = null;
@@ -55,22 +54,22 @@ namespace CV1
                 graphics.DrawImage(image, new Syncfusion.Drawing.RectangleF(10, 10, 90, 90)); // Imagen en el encabezado
             }
 
-            // Ajustar alineación del texto del encabezado
+            // Alineación texto
             float headerTextStartX = 160; // Posición después de la columna izquierda
 
-            // Título "Curriculum Vitae" en blanco
+            // Título en blanco
             graphics.DrawString("Curriculum Vitae", titleFont, PdfBrushes.White, new Syncfusion.Drawing.PointF(headerTextStartX, 20));
 
-            // Nombre y trabajo esperado también alineados a la columna derecha
+            // alineados a la columna derecha
             graphics.DrawString("Nombre: Juan Muños Díaz", regularFont, PdfBrushes.White, new Syncfusion.Drawing.PointF(headerTextStartX, 60));
             graphics.DrawString("Trabajo esperado: Desarrollador de Software", regularFont, PdfBrushes.White, new Syncfusion.Drawing.PointF(headerTextStartX, 80));
 
-            // Columna izquierda (Información de contacto, habilidades, otros)
+            // Columna izquierda
             float leftMargin = 10;
             float currentY = 120;
             float lineSpacing = 5; // Espaciado entre título y línea
 
-            // Información de contacto
+            // contacto
             graphics.DrawString("Contacto:", boldFont, PdfBrushes.Black, new Syncfusion.Drawing.PointF(leftMargin, currentY));
             currentY += 15;
             graphics.DrawLine(PdfPens.Black, leftMargin, currentY, 140, currentY);
@@ -127,7 +126,7 @@ namespace CV1
             currentY += 20;
             graphics.DrawString("- Planeación de redes sociales", smallFont, PdfBrushes.Black, new Syncfusion.Drawing.PointF(leftMargin, currentY));
 
-            // Columna derecha (Sobre mí, experiencia laboral, formación)
+            // Columna derecha 
             float rightMargin = 160;
             currentY = 120;
 
@@ -175,7 +174,7 @@ namespace CV1
             graphics.DrawLine(PdfPens.Black, rightMargin, currentY, pageWidth - 10, currentY);
             currentY += lineSpacing;
 
-            // Nueva formación académica(arreglar)
+            // formación académica
             DrawTextWithWrapping(graphics, "Maestría en Inteligencia de Negocios y Big Data (07/2011)", smallFont, Syncfusion.Drawing.Color.Black, rightMargin, currentY, pageWidth - rightMargin - 10);
             currentY += 17;
             DrawTextWithWrapping(graphics, "Global Open University - Online ", smallFont, Syncfusion.Drawing.Color.Black, rightMargin, currentY, pageWidth - rightMargin - 10);
@@ -190,7 +189,7 @@ namespace CV1
                 document.Save(stream);
                 document.Close(true);
 
-                // Guardar el archivo en el dispositivo
+                // Guardar en el dispositivo
                 string filePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "CV_Estilo.pdf");
                 File.WriteAllBytes(filePath, stream.ToArray());
 
@@ -206,7 +205,7 @@ namespace CV1
                     await DisplayAlert("Error", "El archivo PDF no se generó correctamente o no se encontró.", "OK");
                 }
 
-                // Mostrar un mensaje al usuario
+                // Mostrar un mensaje al usuario en la app cv
                 await DisplayAlert("PDF Generado", $"El CV ha sido guardado en:\n{filePath}", "OK");
             }
         }
